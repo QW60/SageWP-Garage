@@ -1,14 +1,15 @@
 <header class="banner">
   <a class="brand" href="<?php echo e(home_url('/')); ?>">
-    <?php echo $siteName; ?>
-
+    <img src="<?php echo e(Vite::asset('resources/images/logo.png')); ?>" alt="Logo">
   </a>
 
-  <?php if(has_nav_menu('primary_navigation')): ?>
-    <nav class="nav-primary" aria-label="<?php echo e(wp_get_nav_menu_name('primary_navigation')); ?>">
-      <?php echo wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]); ?>
-
+    <nav class="nav-primary">
+      <ul>
+        <li><a href="#">Lyfter Garage</a></li>
+        <li><a href="#">Lyfter Doorbell</a></li>
+        <li><a href="#"><button>Support <img src="<?php echo e(Vite::asset('resources/images/chat.png')); ?>" alt="Support Icon"></button></a></li>
+        <li><a href="#"><button class="lastbtn">Download the app <img src="<?php echo e(Vite::asset('resources/images/download.png')); ?>" alt="Download Icon"></button></a></li>
+      </ul>
     </nav>
-  <?php endif; ?>
 </header>
 <?php /**PATH /var/www/wp.quinm.nl/wp-content/themes/quinm/resources/views/sections/header.blade.php ENDPATH**/ ?>

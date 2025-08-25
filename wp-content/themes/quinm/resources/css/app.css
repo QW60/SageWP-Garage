@@ -1,3 +1,120 @@
 @import "tailwindcss" theme(static);
 @source "../views/";
 @source "../../app/";
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background: #ffebf0;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 600;
+}
+
+header ul li button {
+    background: none;
+    border: solid 1.5px rgba(0, 0, 0, 0.200);
+    padding: 12px;
+    border-radius: 50px;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lastbtn {
+    background: black;
+    color: white;
+}
+
+.hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4rem 8%;
+    background-color: #ffeaf1;
+    overflow: hidden;
+    clip-path: inset(0 0 0 0 round 0 0 125px 125px);
+    padding-top: 125px;
+    padding-bottom: 225px;
+}
+
+.hero-content {
+    max-width: 500px;
+    z-index: 2;
+}
+
+.hero-content .tag {
+    display: inline-block;
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero-content p {
+    margin: 1.5rem 0;
+    color: #444;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: #00d1b2;
+    color: #fff;
+}
+
+.btn.secondary {
+    background: #000;
+    color: #fff;
+}
+
+.hero-images {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 45%;
+}
+
+.hero-images .bg-image {
+    width: 100%;
+}

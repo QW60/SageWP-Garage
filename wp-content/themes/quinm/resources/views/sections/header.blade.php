@@ -1,11 +1,14 @@
 <header class="banner">
   <a class="brand" href="{{ home_url('/') }}">
-    {!! $siteName !!}
+    <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Logo">
   </a>
 
-  @if (has_nav_menu('primary_navigation'))
-    <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
-      {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
+    <nav class="nav-primary">
+      <ul>
+        <li><a href="#">Lyfter Garage</a></li>
+        <li><a href="#">Lyfter Doorbell</a></li>
+        <li><a href="#"><button>Support <img src="{{ Vite::asset('resources/images/chat.png') }}" alt="Support Icon"></button></a></li>
+        <li><a href="#"><button class="lastbtn">Download the app <img src="{{ Vite::asset('resources/images/download.png') }}" alt="Download Icon"></button></a></li>
+      </ul>
     </nav>
-  @endif
 </header>

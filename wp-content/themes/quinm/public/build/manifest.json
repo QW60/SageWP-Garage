@@ -1,0 +1,48 @@
+{
+  "editor.deps.json": {
+    "file": "assets/editor.deps-DxpY22xl.json",
+    "src": "editor.deps.json"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CVoDwEIC.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/editor.css": {
+    "file": "assets/editor-CgPwPKEJ.css",
+    "src": "resources/css/editor.css",
+    "isEntry": true
+  },
+  "resources/images/HeroImage.png": {
+    "file": "assets/HeroImage-CIgJOAfa.png",
+    "src": "resources/images/HeroImage.png"
+  },
+  "resources/images/chat.png": {
+    "file": "assets/chat-CFXgQLmq.png",
+    "src": "resources/images/chat.png"
+  },
+  "resources/images/download.png": {
+    "file": "assets/download-Cl3HSfR_.png",
+    "src": "resources/images/download.png"
+  },
+  "resources/images/logo.png": {
+    "file": "assets/logo-CDP-7Tg3.png",
+    "src": "resources/images/logo.png"
+  },
+  "resources/images/vector.png": {
+    "file": "assets/vector-DZpaVuRK.png",
+    "src": "resources/images/vector.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/editor.js": {
+    "file": "assets/editor-CfU4GbSP.js",
+    "name": "editor",
+    "src": "resources/js/editor.js",
+    "isEntry": true
+  }
+}
