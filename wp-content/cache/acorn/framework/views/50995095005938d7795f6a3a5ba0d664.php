@@ -1,1 +1,0 @@
-<?php /**PATH /var/www/wp.quinm.nl/wp-content/themes/quinm/resources/views/partials/content-block.blade.php ENDPATH**/ ?>
